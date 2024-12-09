@@ -13,3 +13,12 @@ git push
 
 //CREATE NEW BRANCH
 git checkout -b new-branch-name
+git add . -- to stage and add the change
+git - commit -m "created new branch"
+git push -u origin new-branch-name
+
+//MERGE THE BRANCH INTO MAIN
+git checkout main -- go back to main branch
+git merge new-branch-name
+git push
+git branch -d new-branch-name
