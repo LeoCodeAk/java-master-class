@@ -21,4 +21,5 @@ git push -u origin new-branch-name
 git checkout main -- go back to main branch
 git merge new-branch-name
 git push
-git branch -d new-branch-name
+git branch -d new-branch-name -- **This will delete it locally but not in github**
+git push origin --delete branch-name-to-delete
